@@ -93,7 +93,7 @@ a {
   grid-auto-flow: dense;
   grid-template-columns: repeat(4, calc(80vw/4));
   grid-template-rows: repeat(12, calc(80vw/4));
-  max-width: 925px;
+  max-width: 1600px;
   margin: 0 auto; }
 .D .block-sizes li:nth-child(1) {
   /* autoprefixer: off */
