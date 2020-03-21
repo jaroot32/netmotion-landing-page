@@ -26,16 +26,6 @@ a {
 	text-decoration: none;
 }
 
-li {
-	&.grow {
-		transition: all .2s ease-in-out;
-
-		&:hover {
-			transform: scale(1.5);
-		}
-	}
-}
-
 .block-sizes {
 	li:nth-child(1) {
 		/* autoprefixer: off */
@@ -287,6 +277,17 @@ li {
 			/* autoprefixer: off */
 			grid-column: 9 / 13;
 			grid-row: 5 / 7;
+		}
+	}
+}
+@media (hover: hover) and (pointer: fine) {
+	li {
+		&.grow {
+			transition: all .2s ease-in-out;
+
+			&:hover {
+				transform: scale(1.5);
+			}
 		}
 	}
 }
